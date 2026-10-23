@@ -1,5 +1,4 @@
 import { serveDir } from "jsr:@std/http/file-server";
-
 const fsRoot = "public"
 const options = { 
     port: 8000,

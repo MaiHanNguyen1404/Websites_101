@@ -11,7 +11,7 @@ const draw_frame = ms => {
    const t = ms / 1000
    console.log (`page loaded ${ t.toFixed (2)}s ago`)
 
-   ctx.fillStyle = `turquoise`
+   ctx.fillStyle = `velvet`
    ctx.fillRect (0, 0, innerWidth, innerHeight)
 
    requestAnimationFrame (draw_frame)
